@@ -462,7 +462,7 @@ function Chimuela(energiaActual) {
 
 }
 
-let chimuela = new Chimuela(0);
+ this.chimuela = new Chimuela(0);
 
 chimuela.comer(85)
 chimuela.volar(10);
